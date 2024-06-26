@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://www.poctechcorp.com/upload/yuexi.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://www.poctechcorp.com/upload/myt.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
